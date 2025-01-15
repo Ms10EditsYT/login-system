@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>Sign Up</h1>
+        <form id="signupForm">
+            <label for="newUsername">Username</label>
+            <input class="username-input" type="text" id="newUsername" name="newUsername" placeholder="Enter a username" required>
+            <label for="newPassword">Password</label>
+            <input class="password-input" type="password" id="newPassword" name="newPassword" placeholder="Enter a password" required>
+            <button class="login-button" type="submit">Sign Up</button>
+        </form>
+        <p id="message" style="color: red; margin-top: 10px;"></p>
+        <p style="margin-top: 20px; color: white;">
+            Already have an account? 
+            <a href="index.html" style="color: #fff; text-decoration: underline;">Log in here</a>
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

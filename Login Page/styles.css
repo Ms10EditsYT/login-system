@@ -1,0 +1,102 @@
+/* General Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background: linear-gradient(to bottom right, #ffffff, #dceefb); /* Subtle gradient background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);  /* Softer shadow */
+    width: 100%;
+    max-width: 400px; /* Restrict the form width for a cleaner look */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+}
+
+/* Body Styling */
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Beautiful gradient background */
+    font-family: 'Arial', sans-serif; /* Clean font */
+    color: #333; /* Neutral text color */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Label Styling */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555; /* Neutral label color */
+    margin-bottom: 8px;
+}
+
+/* Input Fields Styling */
+.username-input,
+.password-input {
+    margin-bottom: 15px;
+    background: #f9f9f9; /* Soft light background */
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px 15px;
+    width: 100%;
+    transition: all 0.3s ease; /* Smooth transitions */
+    font-size: 14px;
+}
+
+.username-input:focus,
+.password-input:focus {
+    background: #ffffff;
+    border: 2px solid #6a11cb; /* Matches the gradient theme */
+    box-shadow: 0 0 10px rgba(106, 17, 203, 0.2); /* Soft purple glow */
+}
+
+/* Button Styling */
+.login-button {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient button */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    width: 100%;
+}
+
+.login-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(106, 17, 203, 0.3); /* Glow effect */
+}
+
+/* Focus State Styling */
+input:focus {
+    outline: none;
+}
+
+/* Form Container */
+div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Extra Modern Touches */
+::placeholder {
+    color: #bbb; /* Placeholder text color */
+    font-style: italic;
+}
+
