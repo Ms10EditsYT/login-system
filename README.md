@@ -20,4 +20,4 @@ This is a simple login system built using HTML, CSS, and JavaScript. It includes
 1. Clone or download the project to your local machine.
    
    ```bash
-   git clone [https://github.com/your-username/repository-name.git](https://github.com/Ms10EditsYT/login-system.git)
+   git clone https://github.com/Ms10EditsYT/login-system.git
